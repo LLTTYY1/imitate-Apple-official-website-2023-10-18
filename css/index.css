@@ -1,0 +1,311 @@
+@media only screen and (min-width: 991px) {
+    .header-wap {
+        display: none;
+    }
+
+    .header-pc {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .header-wap {
+        display: block;
+    }
+
+    .header-pc {
+        display: none;
+    }
+
+    .header-wap a:first-child {
+        margin-left: 0;
+        width: 700px;
+    }
+
+    .header-wap a:nth-child(2) {
+        margin: 0 auto;
+    }
+
+    .header-wap a:nth-child(3) {
+        margin: 0 auto;
+    }
+
+    .header-wap a:nth-child(4) {
+        margin: 0 auto;
+    }
+
+    .font {
+        display: none;
+    }
+
+    .img18 {
+        display: none;
+    }
+}
+
+.header-pc {
+    background-color: black;
+    line-height: 44px;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+
+.contents {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header-pc .contents {
+    display: flex;
+}
+
+.header-pc li {
+    flex: 1;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, .8);
+    font-size: 12px;
+    display: block;
+}
+
+.header-pc li a {
+    align-items: center;
+    color: rgba(255, 255, 255, .8);
+}
+
+.header-wap {
+    background-color: black;
+    line-height: 44px;
+}
+
+.header-wap li {
+    flex: 1;
+    text-align: center;
+    color: rgba(255, 255, 255, .8);
+    font-size: 12px;
+}
+
+.header-wap .contents {
+    display: flex;
+}
+
+.banner {
+    background-color: black;
+    height: 400px;
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+    display: none;
+
+}
+
+.banner li a {
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    position: relative;
+}
+
+.banner li {
+    margin-top: 10px;
+}
+
+.banner .left {
+    position: absolute;
+    left: 265px;
+    top: 80px;
+}
+
+.banner .mid {
+    position: absolute;
+    top: 80px;
+    left: 480px;
+}
+
+.banner .right {
+    position: absolute;
+    top: 80px;
+    left: 740px;
+}
+
+.img15 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url("https://www.apple.com.cn/v/home/be/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_large.jpg");
+    height: 569px;
+    z-index: 0;
+    width: auto;
+    background-position: center center;
+}
+
+.background {
+    position: absolute;
+    display: flex;
+}
+
+.font {
+    position: absolute;
+    top: 100px;
+    left: 600px;
+}
+
+.font a {
+    color: #2997ff;
+    position: absolute;
+    top: 110px;
+    flex: 1;
+}
+
+.img16 {
+    height: 569px;
+    width: auto;
+    background-position: center center;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://www.apple.com.cn/v/home/be/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_large.jpg");
+}
+
+.img17 {
+    height: 569px;
+    width: auto;
+    margin-top: 10px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://www.apple.com.cn/home/heroes/watch-series-9/images/hero_apple_watch_series_9_order__d0fi9mb84dci_large.jpg");
+}
+
+.img18 {
+    background-image: url("../img/Snipaste_2023-10-16_16-50-30.png");
+    position: absolute;
+    background-position: center center;
+    height: 131px;
+    width: 428px;
+    top: 1210px;
+    left: 550px;
+}
+
+.bottom_img {
+    display: flex;
+    position: relative;
+}
+
+.img20 {
+    margin-top: 10px;
+    height: 548px;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://www.apple.com.cn/home/promos/ipad-pro-refresh/images/promo_ipadpro_refresh__evi9utuixwuq_large.jpg");
+}
+
+.img21 {
+    height: 569px;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://www.apple.com.cn/home/promos/watch-ultra-2/images/promo_apple_watch_ultra2_order__dyxqj5ia98om_large.jpg");
+}
+
+.img22 {
+    height: 548px;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://www.apple.com.cn/v/home/be/images/promos/airpods-pro/promo_airpods_pro_order__d8xv36p4uwae_large.jpg");
+}
+
+.img23 {
+    height: 548px;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://www.apple.com.cn/v/home/be/images/promos/homepod-mini/tile_homepod_mini__b73w4z3ljymu_large.jpg");
+}
+
+.img24 {
+    height: 548px;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://www.apple.com.cn/v/home/be/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_large.jpg");
+}
+
+.img25 {
+    height: 548px;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://www.apple.com.cn/v/home/be/images/promos/macbook-air-15/promo_macbook_air_15_midnight__3zojl1nanrme_large.jpg");
+}
+
+.bottom_text {
+    margin-top: 20px;
+}
+
+.bottom_text p {
+    font-size: 10px;
+}
+
+.p_text {
+    width: 70%;
+    color: #86868b;
+    font-weight: inherit;
+    line-height: inherit;
+    margin: auto;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+.footer .footer1 {
+    font-size: 12px;
+    color: #86868b;
+    margin: 45px;
+
+}
+
+.footer li {
+    margin-top: 10px;
+}
+
+.link-top {
+    width: 70%;
+    height: 1px;
+    border-top: solid #ccc 1px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.final {
+    width: 70%;
+    margin: auto;
+}
+
+.link-top2 {
+    width: 80%;
+    height: 1px;
+    border-top: solid #ccc 1px;
+    margin: 10px;
+}
+
+.final p {
+    width: 70%;
+    color: #86868b;
+}
+
+.final a {
+    text-decoration: underline;
+}
