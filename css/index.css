@@ -44,7 +44,7 @@
 }
 
 .header-pc {
-    background-color: black;
+    background-color: rgb(39, 36, 36, 0.8);
     line-height: 44px;
     position: fixed;
     z-index: 9999;
@@ -93,7 +93,7 @@
     background-color: black;
     height: 400px;
     position: absolute;
-    z-index: 9999;
+    z-index: 9998;
     width: 100%;
     display: none;
 
