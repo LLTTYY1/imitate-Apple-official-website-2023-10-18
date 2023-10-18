@@ -96,11 +96,12 @@
     z-index: 9998;
     width: 100%;
     display: none;
+    margin-top: 45.6px;
 }
 
 .banner li a {
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     position: relative;
 }
@@ -112,18 +113,18 @@
 .banner .left {
     position: absolute;
     left: 265px;
-    top: 80px;
+    top: 35px;
 }
 
 .banner .mid {
     position: absolute;
-    top: 80px;
+    top: 35px;
     left: 480px;
 }
 
 .banner .right {
     position: absolute;
-    top: 80px;
+    top: 35px;
     left: 740px;
 }
 
