@@ -1,5 +1,5 @@
 # imitate-Apple-official-website-2023-10-18
-#(译)用jQuery-HTML5-CSS3 模仿苹果(Apple)官网
+# (译)用jQuery-HTML5-CSS3 模仿苹果(Apple)官网
 技术栈:
 - HTML
 - CSS

@@ -92,11 +92,10 @@
 .banner {
     background-color: black;
     height: 400px;
-    position: absolute;
+    position: fixed;
     z-index: 9998;
     width: 100%;
     display: none;
-
 }
 
 .banner li a {
@@ -308,4 +307,7 @@
 
 .final a {
     text-decoration: underline;
+}
+.footer1 a{
+    color: #86868b;
 }
