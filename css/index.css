@@ -6,6 +6,22 @@
     .header-pc {
         display: block;
     }
+
+    .footer-phone {
+        display: none;
+    }
+
+    .footer {
+        display: block;
+    }
+
+    .p_text {
+        display: block;
+    }
+
+    .p_text2 {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 991px) {
@@ -40,6 +56,43 @@
 
     .img18 {
         display: none;
+    }
+
+    .footer-phone {
+        display: block;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .footer1 {
+        display: none;
+    }
+
+    .link-top {
+        display: none;
+    }
+
+    .link-top2 {
+        display: none;
+    }
+
+    .link-top3 {
+        width: auto;
+    }
+
+    .p_text {
+        display: none;
+    }
+
+    .p_text2 {
+        display: block;
+        width: auto;
+        height: auto;
+        color: #86868b;
+        margin: auto;
+        font-size: 14px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
@@ -256,13 +309,18 @@
 }
 
 .p_text {
-    width: 70%;
+    width: auto;
+    height: auto;
     color: #86868b;
-    font-weight: inherit;
-    line-height: inherit;
     margin: auto;
-    justify-content: center;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 200.400px;
+    margin-right: 200.400px;
+
 }
+
 
 .footer {
     display: flex;
@@ -290,15 +348,30 @@
 }
 
 .final {
-    width: 70%;
-    margin: auto;
+    width: 90%;
+    text-align: center;
 }
 
 .link-top2 {
-    width: 80%;
+    width: 70%;
     height: 1px;
     border-top: solid #ccc 1px;
     margin: 10px;
+    margin-left: 210px;
+    text-align: center;
+}
+
+.link-top3 {
+    width: 90%;
+    height: 1px;
+    border-top: solid #ccc 1px;
+    margin: 10px;
+}
+
+.foot-font {
+    display: flex;
+    position: relative;
+    margin-top: 20px;
 }
 
 .final p {
@@ -306,9 +379,35 @@
     color: #86868b;
 }
 
+.foot-font p {
+    font-size: 12px;
+    color: #86868b;
+    position: absolute;
+    left: 20px;
+    top: -10px;
+}
+
+.foot-font span {
+    position: absolute;
+    top: -10px;
+    right: 50px;
+}
+
+
 .final a {
     text-decoration: underline;
 }
-.footer1 a{
+
+.footer1 a {
     color: #86868b;
+}
+.banner-phone{
+    display: none;
+}
+.banner-1{
+    background-color: black;
+    height: 400px;
+    z-index: 9998;
+    width: 100%;
+    display: none;
 }

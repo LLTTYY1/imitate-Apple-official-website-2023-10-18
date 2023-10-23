@@ -16,6 +16,8 @@
 
 .icon-tianjia:before {
   content: "\e622";
+  width: 20px;
+  height: 20px;
 }
 
 .icon-daohang:before {
