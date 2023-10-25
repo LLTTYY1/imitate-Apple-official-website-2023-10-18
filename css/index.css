@@ -403,13 +403,30 @@
 }
 
 .banner-phone {
-    height: 100%;
+    position: absolute;
 }
 
 .banner-1 {
+    position: relative;
     background-color: black;
-    height: 400px;
     z-index: 9998;
-    width: 100%;
     display: none;
+}
+.banner-1 a{
+    color: white;
+    font-size: 19px;
+    font-weight: bolder;
+}
+.banner-1 li{
+    padding: 10px;
+}
+.banner-1 p{
+    position: relative;
+    width: 50px;
+    color: white;
+    left: 500px;
+    top:0px
+}
+.p-con{
+    position: absolute;
 }

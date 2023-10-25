@@ -38,13 +38,13 @@
             <a href=""><span class="iconfont icon-daohang"></span></a>
         </ul>
     </div>
-    <div class="banner-phone">
-        <div class="banner-1">
-            <div>
+    <div class="banner-phone" style="height: 100%;width: 100%;">
+        <div class="banner-1" style="height: 100%;width: 100%;">
+            <div class="p-con">
                 <p>X</p>
             </div>
             <ul>
-                <li>
+                <li style="margin-top: 20px;">
                     <a href="https://www.apple.com.cn/airpods/">商店</a>
                 </li>
                 <li>
@@ -607,11 +607,16 @@
     var pc_list = document.querySelectorAll(".header-pc li a");
     //在拿到所有的下拉框信息
     var bannerList = document.querySelectorAll(".banner");
-    var button = document.querySelector(".icon-daohang");
- 
-    button.addEventListener("click", function () {
-        console.log("123");
-        $(".banner-phone").slideDown().css("display", "block");
+    var button1 = document.querySelector(".icon-daohang");
+    
+    console.log(button1);
+    button1.addEventListener("mouseover",function(){
+        // console.log(111)
+        $(".banner-1").slideDown().css("display","block");
+    })
+    button1.addEventListener("mouseout",function(){
+        // console.log(111)
+        $(".banner-1").slideUp();
     })
     // console.log(button);
     $(".header-pc .contents li").each(function () {
