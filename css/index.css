@@ -401,10 +401,12 @@
 .footer1 a {
     color: #86868b;
 }
-.banner-phone{
-    display: none;
+
+.banner-phone {
+    height: 100%;
 }
-.banner-1{
+
+.banner-1 {
     background-color: black;
     height: 400px;
     z-index: 9998;
